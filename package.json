@@ -4,7 +4,11 @@
   "description": "",
   "author": "",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx http-server ./public"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
 }
