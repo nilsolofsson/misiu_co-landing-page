@@ -60,10 +60,10 @@ html, body {
 
 /* some magic */
 .magic {
-    animation: flow 10s ease-in-out infinite;
+    animation: flow 8s ease-in-out infinite;
     background: rgb(233,171,233);
     background: linear-gradient(214deg, rgba(233,171,233,1) 0%, rgba(150,199,232,1) 50%, rgba(124,240,201,1) 100%); 
-    background-size: 300%;
+    background-size: 500%;
 
     -webkit-background-clip: text;
     background-clip: text;
