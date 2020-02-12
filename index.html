@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158257550-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158257550-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/style.css">
@@ -21,12 +31,28 @@
         </h1>
         <ul class="contact-list magic">
             <li>
-                <a title="Look at my linkedin" href="https://www.linkedin.com/in/nisseolofs/">
+                <a title="Look at my LinkedIn"
+                   href="https://www.linkedin.com/in/nisseolofs/"
+                   onclick="gtag('event', 'contact-list', {
+                    'event_category': 'click',
+                    'event_label': 'Landingpage LinkedIn'
+                  });
+                  "
+                >
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
             <li>
-                <a title="Send me an email" href="mailto:%75%73%65&#114;&#64;host%2en&#97;&#109;e?subject=Hi%2C%20saw%20your%20website&amp;body=Wanted%20to%20mail%20you%20about%3A">
+                <a title="Send me an email"
+                   href="mailto:%75%73%65&#114;&#64;host%2en&#97;&#109;e?subject=Hi%2C%20saw%20your%20website&amp;body=Wanted%20to%20mail%20you%20about%3A"
+                   onclick="gtag(
+                        'event',
+                        'contact-list', {
+                            'event_category': 'click',
+                            'event_label': 'Landingpage email'
+                        }
+                    );"
+                >
                     <i class="far fa-paper-plane"></i>
                 </a>
             </li>
