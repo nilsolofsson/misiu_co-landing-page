@@ -1,0 +1,12 @@
+:root {
+    --main-bg-color: #2B2F39;
+    --main-text-color: #D2F7F0;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: Light) {
+    :root {
+        --main-bg-color: #fff;
+        --main-text-color: #344B47;
+    }
+}

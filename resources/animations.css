@@ -18,3 +18,8 @@
         opacity: 0%;
     }
 }
+
+:root {
+    --blink: blink 1s cubic-bezier(1,-0.01,0,1.01) infinite;
+    --flow: flow 8s ease-in-out infinite;
+}
