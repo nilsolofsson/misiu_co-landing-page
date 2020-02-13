@@ -66,5 +66,5 @@ html, body {
 }
 
 .magic .blinking {
-    animation: var(--flow), var(--blink);
+    animation: var(--flow-blink);
 }
