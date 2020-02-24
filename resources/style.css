@@ -46,7 +46,11 @@ html, body {
 .contact-list li {
     font-size: 30px;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 15px;
+}
+
+.contact-list li a {
+    padding: 10px;
 }
 
 .blinking {
